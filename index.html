@@ -1,56 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>:: Felipino ::</title>
-    <link rel="stylesheet" href="style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> <!--Site Boxicons> menu superior direito: usage> import CSS -->
-
-
+    <title>Portfolio :: Felipino</title>
+    <link href='style.css' rel='stylesheet'>
 </head>
 
-<body>
+<!-- HEADER -->
 
 <header class="header">
-
-    <a href="#" class="logo">Felipino.</a>
-
-    <nav class="navbar"> <!-- nav + .navbar + enter -->
-        <a href="#" class="active">Home</a> <!-- a + enter -->
-        <a href="#">About</a> <!-- shift + alt + seta baixo -->
-        <a href="#">Services</a>
-        <a href="#">Portfolio</a>
-        <a href="#">Contact</a>
+    <nav class="navigation">
+        <a href="./index.html">Home</a>
+        <a href="./sobre.html">About</a>  <!-- Direcionamento para segunda página do site -->
+        <a href="./agendas.html">Projects</a>
+        <a href="./campos.html">Contact</a>
     </nav>
 </header>
 
-<section class="home"> <!-- section + .home (tudo junto) -->
-    <div class="home-content">
-        <h1>Hi, I'm Felipino</h1><!-- h1 + enter -->
-        <h3>Full Stack Developer</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi magni earum in voluptatum, itaque tempore, qui totam quos tenetur asperiores aliquid architecto vitae modi quia autem omnis.</p> <!-- lorem27 + enter -->
+<!-- OPEN BODY -->  
 
-        <div class="btn-box"> <!-- .btn-box + enter (cria div) -->
-            <a href="#">Hire Me</a>
-            <a href="#">Let's Talk</a>
+<body>
+
+<!-- INTRO -->
+
+    <div class="intro">
+
+
+      
+        <div class="intro-text">
+          <h1>Hello, I'm Felipino</h1>
+          <h2>Full Stack Developer</h2>
         </div>
+
+
+        <div class="intro-img">
+          <img class="img-me" src="port-photo.png" width=480px height=480px>
+        </div>
+
+
+    </div>  
+
+ <!-- Technologies -->
+    <div class="technologies">
+      <h1>Technologies</h1>
+        <div class="languages">
+          <p>•HTML•</p>
+          <p>•CSS•</p>
+          <p>•JavaScript•</p>
+        </div>
+
     </div>
 
-    <div class="home-sci">
-        <a href="#"><i class='bx bxl-github'></i></a> <!--Escolher ícone> aba 'font' dele-->
-        <a href="#"><i class='bx bxl-linkedin' ></i></a>
-        <a href="#"><i class='bx bxl-whatsapp' ></i></a>
+<!-- Projects -->
+<div class="projects">
+  <h1>My Projects</h1>
+
+      <!-- Gallery -->
+      <div class="gallery">
+
+
+        <figure class="gallery-item">
+          <img src="i318909.webp" width=480px height=320px>
+          <figcaption>Project xxx</figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="i318909.webp" width=480px height=320px>
+          <figcaption>Project xxx</figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="i318909.webp" width=480px height=320px>
+          <figcaption>Project xxx</figcaption>
+       </figure>
+
+       
     </div>
 
-    <span class="home-imgHover"></span>
 
+</div>
+    <!--Footer-->
+    <footer>
 
-</section>
-
-</body>
-
+    </footer>
+  </body>
 </html>
