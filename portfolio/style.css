@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* General */
+* {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+
+/* Body */
+
+/* Header */
+.header {
+    margin: 0px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    
+}
+
+.felipino-logo {
+
+}
+
+
+.navigation {
+    word-spacing: 10px; 
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color:darkgoldenrod
+}
+
+
+
+
+
+/* Intro */
+
+.intro {
+    
+    display: flex;
+    align-items: center; /* Alinha verticalmente ao centro */
+    justify-content: center; /* Alinha horizontalmente ao centro */
+    background-color: rgb(255, 255, 255); 
+    padding: 0 100px;
+    
+    
+}
+
+.intro .intro-text {
+    flex: 1; /* Permite que a div de texto ocupe o espaço restante */
+    
+}
+
+.intro h1 {
+    font-size: 50px;
+    
+}
+
+.intro h2 {
+    font-size: 30px;
+}
+
+.intro-img {
+    
+    margin: 0 auto;
+}
+
+.intro-img .img-me {
+    max-width: 100%; /* Faz a imagem se ajustar ao tamanho do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    
+}
+
+
+
+
+
+
+
+/* Technologies */
+.technologies {
+    padding: 20px 0px;
+    background-color: black;
+    color: white;
+    
+  }
+
+.technologies h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    
+}
+
+
+
+.languages {
+    
+}
+
+/*HTML*/
+
+.languages .html-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0px;
+}
+
+.languages .html-container .html-logo {
+    display: flex;
+    width: 40%;
+
+    align-content: center;
+    justify-content: center;
+}
+
+.languages .html-container .html-logo img {
+    display: flex;
+    width: 180px;
+    height: 180px;
+
+    align-content: center;
+    justify-content: center;
+}
+
+
+.languages .html-description {
+    display: flex;
+    width: 40%;
+
+    flex-direction: column;
+    justify-content: center;
+}
+
+.languages .html-description h2 {
+  font-size: 26px;
+}
+
+
+
+
+
+/*CSS*/
+
+.languages .css-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0px;
+}
+
+.languages .css-container .css-logo {
+    display: flex;
+    width: 40%;
+
+    align-content: center;
+    justify-content: center;
+}
+
+.languages .css-container .css-logo img {
+    display: flex;
+    width: 180px;
+    height: 180px;
+
+    align-content: center;
+    justify-content: center;
+}
+
+.languages .css-description {
+    display: flex;
+    width: 40%;
+
+    flex-direction: column;
+    justify-content: center;
+}
+
+.languages .css-description h2 {
+  font-size: 26px;
+}
+
+
+
+
+/*JavaScript*/
+
+.languages .js-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0px;
+}
+
+.languages .js-container .js-logo {
+    display: flex;
+    width: 40%;
+
+    align-content: center;
+    justify-content: center;
+}
+
+
+.languages .js-description {
+    display: flex;
+    width: 40%;
+
+    flex-direction: column;
+    justify-content: center;
+}
+
+.languages .js-description h2 {
+  font-size: 26px;
+}
+
+.languages .js-container .js-logo img {
+    display: flex;
+    width: 180px;
+    height: 180px;
+
+    align-content: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+/* Projects */
+
+.projects {
+    
+    background-color: black;
+    color: white;
+    
+}
+
+.projects h1{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+
+
+
+/* IMAGES GALLERY */
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.gallery-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
+    font-size: 20px;
+    
+}
+
+.gallery-item:hover {
+    border: 1px solid white;
+    
+}
+
+
+.gallery img{
+    height: 100%;
+    width: 100%;
+}
+
+
+/* Footer */
+footer {
+    
+}
